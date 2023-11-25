@@ -73,7 +73,7 @@ class Knight : public Character // Devired class from Character class
 •	void UpdateStats() override // update character’s stats that override to base class
 void printInfo() // print character’s stats that override the virtual printInfo() in base class
 class Wizard : public Character // Devired class from Character class
---- member variables ---
+-- member variables --
 •	string skill // class’s skill
 •	int damage // class’s damage
 •	int attGain // class’s attack gain after level up
