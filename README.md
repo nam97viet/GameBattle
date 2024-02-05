@@ -1,7 +1,7 @@
 Goblin Slayer RPG
 Welcome to the "Goblin Slayer" RPG, a text-based battle game inspired by the popular manga "Goblin Slayer." Embark on a quest to save the world by battling goblins and leveling up your character. This README provides an overview of the game structure, classes, and features.
 
-https://youtu.be/a5dnVKqt7PI
+[![Click to watch the video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=a5dnVKqt7PI)
 
 Table of Contents
 Introduction
