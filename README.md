@@ -20,8 +20,6 @@ Create a hero, duel vicious goblins in turn-based combat, and grow strong enough
 4. [Battle System](#battle-system)
 5. [Save & Load](#save--load)
 6. [Rest & Continue](#rest--continue)
-7. [Contributing](#contributing)
-8. [License](#license)
 
 ---
 
@@ -41,3 +39,61 @@ You’ll:
 ```bash
 # Compile (if needed) and run
 ./goblin_slayer_rpg
+```
+
+### You’ll see three choices
+
+| Option | Action                    |
+| ------ | ------------------------- |
+| **1 – New Game** | Create a fresh hero |
+| **2 – Load Game** | Resume from `character.txt` |
+| **3 – Exit**      | Quit the program |
+
+---
+
+### New Game
+1. **Name** your character.  
+2. **Choose a job:**  
+   `1) Knight  2) Wizard  3) Barbarian  4) Rogue  5) DemonKing*`  
+   \*Press **5** to unlock the secret **DemonKing** class.  
+3. Review your starting stats and begin the adventure.
+
+---
+
+### Load Game
+Select **Load Game** to import your last save from `character.txt`.
+
+---
+
+### Character Classes
+| Class        | Play-style / Strengths           | HP | ATK | DEF |
+|--------------|----------------------------------|:--:|:--:|:--:|
+| **Knight**   | Armored defender, balanced dmg   | 120 | 10 | 14 |
+| **Wizard**   | High burst magic, fragile armor  |  90 | 16 |  8 |
+| **Barbarian**| Raw melee power, low defense     | 110 | 18 |  6 |
+| **Rogue**    | Agile, crit-heavy strikes        | 100 | 12 | 10 |
+| **DemonKing**| *Secret*, overwhelming force     | 150 | 20 | 15 |
+
+*(Exact values can be tweaked in source.)*
+
+---
+
+### Battle System
+- **Turn-based:** choose **Attack** or **Flee** each round.  
+- **Potions:** heal on demand (if you have any).  
+- **Fleeing** spawns a brand-new goblin with random stats.  
+- Earn **XP** per kill; at **100 XP** ⇒ **Level Up** (ATK ↑, DEF ↑, HP ↑).
+
+---
+
+### Save & Load
+- Select **Save & Exit** after a fight to write your hero data to `character.txt`.  
+- Resume any time with **Load Game**.
+
+---
+
+### Rest & Continue
+After combat you can **Rest & Continue** to fully restore HP before marching on.
+
+---
+
